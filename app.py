@@ -1,6 +1,6 @@
 
 import streamlit as st
-import fitz  # PyMuPDF
+import pymupdf as fitz  # PyMuPDF
 from docx import Document
 from io import BytesIO
 from modules.skill_extractor import (extract_skills,compare_skills)
